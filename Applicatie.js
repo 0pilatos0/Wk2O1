@@ -10,9 +10,15 @@ Mediumpizz = Mediumpizz * 5;
 Smallpizz = Smallpizz * 2;
 
 document.write("Totale kosten van alle pizza's:");
+document.write("<br>");
+document.write("<br>");
 document.write("Large pizza's: " + Largepizz + "€");
+document.write("<br>");
 document.write("Medium pizza's: " + Mediumpizz + "€");
+document.write("<br>");
 document.write("Small pizza's: " + Smallpizz + "€");
+document.write("<br>");
+document.write("<br>");
 
 var totaalbedrag = Largepizz + Mediumpizz + Smallpizz;
 
