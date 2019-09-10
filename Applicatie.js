@@ -1,8 +1,10 @@
 /* Paul van der Lei
  Media- en Applicatieontwikkelaar leerjaar 1*/
-Main() //hier start de code
-
+ const button = document.querySelector('input');
+ button.addEventListener('click', Main);
+ 
 function Main () { //function is nu nog niet in gebruik ivm latere toevoeging van code
+    
     alert("welkom bij de pizza zelfservice bestel hierna je pizza's");
     const LargepizzP = 10; 
     const MediumpizzP = 5; 
