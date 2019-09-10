@@ -14,23 +14,21 @@ function Main () { //function is nu nog niet in gebruik ivm latere toevoeging va
     var Smallpizz = prompt("Hoeveel Small pizza's wil je van  "+SmallpizzP +" euro per stuk?", "aantal pizza's"); 
     //vragen naar hoeveelheid van de vraag + opslaan als var
 
-    alert("U heeft momenteel "+ Largepizz + " large pizza's" + "\n" + "U heeft momenteel "+ Mediumpizz + " Medium pizza's" + "\n" + "U heeft momenteel " + Smallpizz + " Small pizza's" );
-    //weergaven an alle items aangevraagd door gebruiker
 
-    Largepizz = Largepizz * LargepizzP; 
-    Mediumpizz = Mediumpizz * MediumpizzP;
-    Smallpizz = Smallpizz * SmallpizzP;
+    var LargepizzT = Largepizz * LargepizzP; 
+    var MediumpizzT = Mediumpizz * MediumpizzP;
+    var SmallpizzT = Smallpizz * SmallpizzP;
     //berekenen van totaalprijzen per pizza soort
 
 
     document.write("Totale kosten van alle pizza's:");
     document.write("<br>");
     document.write("<br>");
-    document.write("Large pizza's: " + "€" + Largepizz);
+    document.write("Large pizza's: " + LargepizzP + ", totaal bedrag: " + "€" + LargepizzT);
     document.write("<br>");
-    document.write("Medium pizza's: "+ "€" + Mediumpizz );
+    document.write("Medium pizza's: " + MediumpizzP + ", totaal bedrag: " + "€" + MediumpizzT);
     document.write("<br>");
-    document.write("Small pizza's: "+ "€" + Smallpizz );
+    document.write("Small pizza's: " + SmallpizzP + ", totaal bedrag: " + "€" + SmallpizzT);
     document.write("<br>");
     document.write("<br>");
     //weergeven van het bonnetje met alle totaalprijzen
