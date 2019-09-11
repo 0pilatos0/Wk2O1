@@ -35,9 +35,10 @@ function Main () { //function is nu nog niet in gebruik ivm latere toevoeging va
     document.write("<br>");
     //weergeven van het bonnetje met alle totaalprijzen
 
-    var totaalbedrag = Largepizz + Mediumpizz + Smallpizz;
+    var totaalbedrag = LargepizzT + MediumpizzT + SmallpizzT;
     //totaalbedrag berekenen en dat terug opslaan als var totaalbedrag
 
     document.write("al uw pizza's bij elkaar kosten: "+ "€" + totaalbedrag );
     //totaalbedrag weergeven onderaan het scherm
+    
 }
